@@ -79,7 +79,131 @@ nav {
     padding-top: 250px;
     display: flex;
     justify-content: center;
-align-items: center;
-flex-direction: column;
-background-position: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+}
+
+.specialtie-container {
+    padding: 5em 0;
+}
+
+.specialtie-container ul {
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.specialtie-container ul li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.fa-shield-halved {
+    color: #56ef53;
+}
+
+.fa-rocket {
+    color: #fc0606;
+}
+
+.fa-comments {
+    color: #ff6e04;
+}
+
+.specialtie-container ul li h3 {
+    margin-top: 25px;
+}
+
+.specialtie-container ul li p {
+    line-height: 24px;
+}
+
+.precos-container {
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.precos-container h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.precos-container p {
+    font-size: 20px;
+}
+
+.plano-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plano {
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plano ul {
+    padding: 0;
+}
+
+.plano ul li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFFFFF;
+}
+
+.plano .preco {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #56ef53;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+.plano .nome-plano{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 120px;
+}
+.plano .btn-plano{
+    background-color: #1ed760;
+    color: #FFFFFF;
+    font-size: 28px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.plano .recomendado{
+    background-color: #fc0606;
 }
